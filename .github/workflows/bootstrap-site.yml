@@ -1,0 +1,49 @@
+name: Bootstrap Mavera website
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".bootstrap/**"
+      - ".github/workflows/bootstrap-site.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  bootstrap:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Use Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Expand website source
+        shell: bash
+        run: |
+          cat .bootstrap/site.part.* | base64 --decode > /tmp/mavera-site.tar.gz
+          echo "d7f0b3b7b48fe3f7730e2f160779e820a602a0cd5bde0579bff5caa0cda6d77c  /tmp/mavera-site.tar.gz" | sha256sum --check
+          tar -xzf /tmp/mavera-site.tar.gz -C .
+          rm -rf .bootstrap
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Validate production build
+        run: npm run build
+
+      - name: Commit website
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Launch Mavera corporate website"
+          git push
