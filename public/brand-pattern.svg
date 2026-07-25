@@ -1,0 +1,8 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g opacity=".16" stroke="#FCB040" stroke-width="3">
+    <path d="M-20 40L20 0L60 40L100 0L140 40L180 0L220 40L260 0"/>
+    <path d="M-20 100L20 60L60 100L100 60L140 100L180 60L220 100L260 60"/>
+    <path d="M-20 160L20 120L60 160L100 120L140 160L180 120L220 160L260 120"/>
+    <path d="M-20 220L20 180L60 220L100 180L140 220L180 180L220 220L260 180"/>
+  </g>
+</svg>

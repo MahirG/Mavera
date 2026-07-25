@@ -1,0 +1,10 @@
+<svg width="760" height="300" viewBox="0 0 760 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Mavera Business Group</title>
+  <desc id="desc">Mavera M-shaped business graph mark in amber and silver with the company name.</desc>
+  <g transform="translate(40 32)">
+    <path d="M24 32V178L114 76L180 148L246 76L336 178V32" stroke="#D1D2D4" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" opacity=".95"/>
+    <path d="M24 32V178L114 76L180 148L246 76L336 178V32" stroke="#FCB040" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="430" y="137" fill="#FCB040" font-size="76" font-family="Arial Black, Arial, sans-serif" font-weight="900" letter-spacing="1">MAVERA</text>
+  <text x="434" y="196" fill="#FCB040" font-size="29" font-family="Arial, sans-serif" font-weight="500" letter-spacing="11">BUSINESS GROUP</text>
+</svg>

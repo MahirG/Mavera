@@ -1,0 +1,15 @@
+<svg width="760" height="420" viewBox="0 0 760 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Mavera Coffee House</title>
+  <desc id="desc">A coffee cup, house roof, M letter and coffee bean in amber and silver.</desc>
+  <g transform="translate(205 16)">
+    <path d="M54 82L175 12L296 82" stroke="#FCB040" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M68 108V212C68 266 111 300 175 300C239 300 282 266 282 212V108" stroke="#D1D2D4" stroke-width="19" stroke-linecap="round"/>
+    <path d="M282 130H327C355 130 372 149 372 173C372 198 354 216 326 216H300" stroke="#D1D2D4" stroke-width="19" stroke-linecap="round"/>
+    <path d="M88 112L88 238M88 112L174 214M262 112L262 238M262 112L176 214" stroke="#D1D2D4" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M178 105C138 111 116 146 116 191C116 235 138 269 178 275C219 269 241 235 241 191C241 146 219 111 178 105Z" fill="#FCB040"/>
+    <path d="M180 108C202 139 198 172 178 191C157 212 156 244 177 272" stroke="white" stroke-width="7" stroke-linecap="round"/>
+    <path d="M97 0C78 27 114 35 93 62M126 0C107 27 143 35 122 62" stroke="#FCB040" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <text x="380" y="355" text-anchor="middle" fill="#FCB040" font-size="68" font-family="Arial Black, Arial, sans-serif" font-weight="900">MAVERA</text>
+  <text x="383" y="400" text-anchor="middle" fill="#FCB040" font-size="27" font-family="Arial, sans-serif" letter-spacing="12">COFFEE HOUSE</text>
+</svg>
